@@ -2,4 +2,12 @@ Nick Tchayka
 
 # Replace a string in all files
 
-`find ./ -type f -exec sed -i 's/string1/string2/g' {} \;`
+Sometimes, we want to replace a symbol in all files, like when doing a major rename.
+
+It is very useful to have this simple helper command that allows doing it easily:
+
+```bash
+function replaceall {
+  find ./ -type f -exec sed -i "s/$1/$2/g" {} \;
+}
+```
