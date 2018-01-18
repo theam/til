@@ -1,5 +1,7 @@
 Gonzalo García
 
+# HTTP requests in IntelliJ
+
 If you need to do an http request without exit Intellij you could use the `Test Restful Web Service` but there is
 another powerful tool to do the same: 
   * Create a new *scratch* file ( ⌃+⇧+↩ ) 
@@ -8,4 +10,4 @@ another powerful tool to do the same:
   * Press ⌥+↩ and voila! 
 
 There are a lot of options with this kind of file: verbs, headers, body, history, ... 
-check http://vojtechruzicka.com/intellij-idea-tips-tricks-testing-restful-web-services/
+check [http://vojtechruzicka.com/intellij-idea-tips-tricks-testing-restful-web-services/](http://vojtechruzicka.com/intellij-idea-tips-tricks-testing-restful-web-services/)
