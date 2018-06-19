@@ -1,4 +1,4 @@
-José Manuel Martínez & Sebastían Pérez
+José Manuel Martínez & Sebastián Pérez
 
 # How to access an EC2 instance if you don't own the PEM file
 
